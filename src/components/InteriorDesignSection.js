@@ -14,7 +14,7 @@ const InteriorDesignSection = () => {
         <div className='lg:px-20'>
           <h1 className="text-4xl tracking-wider font-bold mb-4">Creative Solutions by Professional</h1>
           <p className="text-gray-600 mb-8">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s
           </p>
           {/* Stats */}
           <div className="flex flex-wrap  mb-8">
