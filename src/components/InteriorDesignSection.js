@@ -18,15 +18,15 @@ const InteriorDesignSection = () => {
           </p>
           {/* Stats */}
           <div className="flex flex-wrap  mb-8">
-            <div className="w-full sm:w-auto mb-4 sm:mb-0 px-10 ">
+            <div className="w-full sm:w-auto mb-4 sm:mb-0 px-8 ">
               <p className="text-3xl font-bold text-teal-600">53k</p>
               <p className="text-gray-600 text-sm">Happy Client</p>
             </div>
-            <div className="w-full sm:w-auto mb-4 sm:mb-0 border-l-[3px] border-l-[#4E4E4E] border-r-[3px] border-r-[#4E4E4E] px-10 ">
+            <div className="w-full sm:w-auto mb-4 sm:mb-0 border-l-[3px] border-l-[#4E4E4E] border-r-[3px] border-r-[#4E4E4E] px-8 ">
               <p className="text-3xl font-bold text-teal-600">10k</p>
               <p className="text-gray-600 text-sm">Projects Done</p>
             </div>
-            <div className="w-full sm:w-auto px-10">
+            <div className="w-full sm:w-auto px-8">
               <p className="text-3xl font-bold text-teal-600 ">120</p>
               <p className="text-gray-600 text-sm">Get Award</p>
             </div>
