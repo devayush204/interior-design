@@ -10,13 +10,14 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
-    <nav className="bg-[#4E4E4E] opacity-90 text-white fixed z-50 w-full">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
+    <nav className="bg-[#4E4E4E] opacity-90 text-white fixed z-50 w-full lg:py-3">
+      <div className=" mx-auto px-4 sm:px-6 lg:px-14">
+        <div className="flex items-center justify-between h-16 w-full">
+          <div className="flex items-center ">
             <div className="flex-shrink-0">
               <Link href="/" className="text-3xl font-bold">LOGO</Link>
             </div>
+          </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link href="/" className="hover:bg-gray-700 px-3 py-2 rounded-md">Home</Link>
@@ -27,9 +28,8 @@ const Navbar = () => {
                 <Link href="/contact" className="hover:bg-gray-700 px-3 py-2 rounded-md">Contact Us</Link>
               </div>
             </div>
-          </div>
-          <div className="hidden md:flex items-center">
-            <FiShoppingCart className="h-6 w-6 mr-4" />
+          <div className="hidden md:flex items-center gap-5">
+            <FiShoppingCart className="h-6 w-6 " />
             <FiSearch className="h-6 w-6" />
           </div>
           <div className="md:hidden flex items-center">

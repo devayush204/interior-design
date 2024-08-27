@@ -5,19 +5,19 @@ import waves from "../../public/assets/waves.png"
 
 const Hero = () => {
   return (
-    <div className="relative h-screen">
+    <div className="relative h-[100vh] w-full px-7">
       {/* Background Image */}
       <Image
         src={img1}
         layout="fill"
         objectFit="cover"
         alt="Interior design background"
-        className="z-0"
+        className="z-0 h-[100vh]"
       />
       
       {/* Content Container */}
       <div className="relative z-10 h-full flex items-center">
-        <div className="container mx-auto px-4 flex">
+        <div className="container mx-auto  flex">
           {/* Left Side - Social Icons */}
           <div className="hidden md:flex flex-col justify-center space-y-4">
             <Link href="#" className="text-white hover:text-gray-300">
@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
           
           {/* Right Side - Main Content */}
-          <div className="ml-auto lg:mr-20 w-full md:w-1/2 lg:w-2/5">
+          <div className="md:ml-[40%] lg:ml-[50%] lg:mr-20 w-full md:w-1/2 lg:w-2/5">
             <div className="bg-[#4E4E4E] bg-opacity-75 p-8 rounded-lg">
               {/* Waves Image */}
               <Image
@@ -53,7 +53,7 @@ const Hero = () => {
                 Design Your Space For Living
               </h1>
               <p className="text-gray-300 mb-6">
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the.
               </p>
               <button className="bg-teal-500 text-white px-6 py-2 rounded hover:bg-teal-600 transition duration-300">
                 Lorem Ipsum
